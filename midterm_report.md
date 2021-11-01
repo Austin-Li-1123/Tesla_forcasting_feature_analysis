@@ -5,7 +5,7 @@ In order to find the best degree in different polynomial transformations, we com
 
 
 
-![plot](./asset/overfitting_analysis.png)
+![plot](./asset/overfitting_analysis.JPG)
 
 From the plot, when the degree increases from 1 to 3, the MSE of training sets decreases, while the MSEs of testing sets decrease and then increase which means the model starts to be overfitting when the degree is larger than 2. 
 
@@ -26,10 +26,10 @@ In this dataset, we collect Tesla’s open and close stock prices from Jan 1, 20
 To get a better understanding of the relationship between each brand, we combined two datasets and utilized two line graphs to show the change of stock price from 2019 to 2021. 
 
 
-![2019-05-13.jpg](attachment:2019-05-13.jpg)
+![plot](./asset/tesla_price.JPG)
 
 
-![2019-05-13%202.jpg](attachment:2019-05-13%202.jpg)
+![plot](./asset/stock_comparison.JPG)
 
 It is noticeable that the trend of General Motors looks more similar to the trend of Tesla, implying that principal component analysis may be conducted in our next step. Additionally, we add stock price difference columns for each brand to get more features to our model. One of the benefits by doing so is that we can easily tell the relationship of stock price for the same brand.  
 
