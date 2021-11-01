@@ -5,7 +5,7 @@ In order to find the best degree in different polynomial transformations, we com
 
 
 
-![plot](./asset/overfitting_analysis)
+![plot](./asset/overfitting_analysis.png)
 
 From the plot, when the degree increases from 1 to 3, the MSE of training sets decreases, while the MSEs of testing sets decrease and then increase which means the model starts to be overfitting when the degree is larger than 2. 
 
